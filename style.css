@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    font-family: "Roboto", serif;
+    margin: 0 auto;
+}
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    height: 800px;
+    margin-top: 130px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    
+}
+.nav_list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav_link{
+    color: rgb(51, 51, 51);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    }
+
+header{
+    background-color:  rgb(243, 215, 183);
+}
+
+
+.right img{
+    margin: 100px 0;
+}
+.left h1{
+    color: rgb(0, 0, 0);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+
+
+.left p{
+    width: 10%;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 62%;
+    padding-top: 50px;
+}
+.left button{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(10, 119, 95);
+    margin-top: 47px;
+    padding: 20px ;
+    cursor: pointer;
+}
+.section-1{
+    width: 100%;
+    height: 800px;
+   
+    background-color:  rgb(243, 215, 183);
+}
+.section-2{
+    width: 100%;
+    background-color: #F8F8F2;
+    
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    padding:  50px ;
+}
+
+.image{
+    background-image: url("image\ 40\ \(1\).png");
+    background-size: cover;
+    transform: rotate(45deg);
+    width: 160px;
+    height: 160px;
+    position: relative;
+    z-index: 2;
+    top: -60px;
+    left: -40px;
+    
+    animation: mymove 3s infinite;
+}
+.icon{
+    background-image: url("Rectangle\ 679\ \(1\).png");
+    background-size: cover;
+    /* position: absolute;
+    left: 810px;
+    top: 200px;
+    z-index: 2; */
+    width: 710px;
+    height: 694px;
+    position: relative;
+    z-index: 2;
+
+}
+.flake_iton{
+    
+}
+@keyframes mymove {
+    0% {
+        transform: rotate(0deg); /* Hech qanday aylanish yo'q */
+      }
+      50% {
+        transform: rotate(180deg); /* Element yarim buriladi */
+      }
+      100% {
+        transform: rotate(360deg); /* Element to'liq aylanishni yakunlaydi */
+      }
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper_info, .wrapper_img{
+    width: 48%;
+}
+.info_name{
+    color: rgb(51, 51, 51);
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+}
+.info_info{
+    color: rgb(51, 51, 51);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+    margin: 10px 0;
+}
+.card{
+    margin: 120px 0;  
+}
+.wrapper_img{
+    animation: scaleUp 2s infinite alternate;
+}
+@keyframes scaleUp {
+    from {
+      transform: scale(1); /* Oddiy o'lcham */
+    }
+    to {
+      transform: scale(1.5); /* Kattalashgan o'lcham */
+    }
+  }
+.out{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+footer{
+    background-color:  rgb(243, 215, 183); 
+}
+.icon-out{
+   display: flex;
+   gap: 40px
+}
+.souze{
+    width: 660px;
+    height: 394px;
+    position: relative;
+    z-index: 2;
+    background-image: url("Rectangle\ 679.svg");
+    background-size: cover;
+}
+
+body{
+    background-color: #F8F8F2;
+}
+.ots{
+    margin: 300px;
+}
+.wrapper_ots{
+    width: 372px;
+    height: 364px;
+}
+.sout{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(201, 155, 103);
+}
+
+.jud{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.59px;
+    color: red;
+}
+.imag{
+    background-image: url(Rectangle\ 681.svg);
+    background-size: cover;
+    width: 566px;
+    height: 552px;
+    position: relative;
+    top: -80px;
+}
